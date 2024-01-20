@@ -1,0 +1,84 @@
+body {
+    background: rgb(145, 153, 237);
+    background: radial-gradient(circle, rgba(145, 153, 237, 1) 20%, rgba(230, 147, 202, 1) 92%);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 7vh;
+    font-family: "Oswald", sans-serif;
+    font-size: 100em;
+
+}
+
+#mainDiv {
+    border-style: solid;
+    border-color: rgb(232, 208, 208);
+    width: 30vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#activity {
+    height: 7vh;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.maintext {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 2vh;
+
+}
+
+#addButton {
+    height: 6vh;
+    width: 10vw;
+    border-radius: 15px;
+    font-weight: 700;
+    background: rgb(147, 25, 114);
+    background: radial-gradient(circle, rgba(147, 25, 114, 1) 20%, rgba(22, 179, 186, 1) 92%);
+    color: white;
+
+}
+
+.allButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    margin-bottom:5px ;
+    padding-left: 1vw;
+    margin-top: 1vw;
+    gap: 1vw;
+    font-size: 20px;
+    font-weight: 500;
+    /* border-color: rgb(241, 235, 239);
+    border-radius: 10px;
+    border-style: solid; */
+}
+input[type="checkbox"] {
+    
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  }
+  .line-through-label{
+    text-decoration: line-through;
+
+  }
